@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Work+Sans&display=swap');
+
+body {
+  background-color: #212529;
+  font-family: arial;
+  color: #e9ecef;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  background-image: url(images/background.JPG);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Stretch Pro';
+  font-size: 42px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Stretch Pro';
+  font-size: 24px;
+  text-align: center;
+}
+
+
+p {
+  font-family: 'Stretch Pro';
+  text-align: justify;
+  font-size: 13px;
+}
+
+img.img-circle {
+  border-radius: 5%;
+  width: 300px;
+  height: 170px;
+  /* object-fit: cover; */
+  object-position: 50% 0%;
+  box-shadow: 4px 4px 8px rgb(0 0 0 / 50%);
+}
+
+.btn-dark {
+  background-color: #6c757d;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 7px;
+}
+
+.btn-blue:hover {
+  background-color: #1f0f42;
+  transition: 1s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card-dark {
+  width: 300px;
+  background-color: #212529;
+  height: 450px;
+  margin: 24px;
+  box-shadow: 0 0 16px rgb(0 0 0 / 30%);
+  padding: 16px 64px;
+  text-align: center;
+  border-radius: 5%;
+  justify-content: center;
+}
+
+/* image {
+  height: auto;
+  width: auto;
+  max-height: 550px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+} */
+
+/* img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+} */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    flex-direction: column;
+  }
+}
